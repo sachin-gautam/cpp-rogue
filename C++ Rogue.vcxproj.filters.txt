@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="player.cpp" />
+    <ClCompile Include="enemy.cpp" />
+    <ClCompile Include="Obstacle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{751451bd-a885-484f-b0d5-74aa478fc8e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{cb80b80f-2d08-4f2b-9747-49294248e12c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{3d5c5151-0376-494b-9098-5b8104076c3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{601c59b8-772b-43cf-8a82-21be427ce6a8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="player.h" />
+    <ClInclude Include="enemy.h" />
+    <ClInclude Include="Obstacle.h" />
+  </ItemGroup>
+</Project>
